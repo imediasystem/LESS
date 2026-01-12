@@ -42,3 +42,17 @@
 .list-style-none {
   list-style-type: none;
 }
+.overflow-fix {
+  overflow: auto;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.hide {
+  opacity: 0;
+}
+.show {
+  opacity: 1;
+}
