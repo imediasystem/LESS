@@ -1,4 +1,5 @@
 @import 'grid.less';
+@import 'helpers.less';
 
 @phone: ~"only screen and (min-width: 768px)";
 @tablet: ~"only screen and (min-width: 1024px)";
@@ -53,3 +54,31 @@
 		.column(3);
 	}
 }
+
+// Container Styles
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+	clear: both;
+	padding: 0 15px;
+}
+
+// Elements
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.section-title {
+	margin-bottom: 40px;
+	.center-text;
+}
+

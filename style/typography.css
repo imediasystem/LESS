@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
-  color: #888888;
+  color: #888;
 }
 p {
   margin: 0 0 15px;
@@ -24,4 +24,9 @@ h3 {
   margin-bottom: 18px;
   color: #434343;
   font-weight: 400;
+}
+h1,
+h2,
+h3 {
+  line-height: 1.1;
 }
