@@ -1,3 +1,9 @@
+@import 'grid.less';
+
+@phone: ~"only screen and (min-width: 768px)";
+@tablet: ~"only screen and (min-width: 1024px)";
+@desktop: ~"only screen and (min-width: 1280px)";
+
 // Grid Column
 @columns: 12;
 @column-width:65;
@@ -6,6 +12,43 @@
 
 .our-services .single-col {
 	.column(12);
+	@media @tablet {
+		.column(3);
+	}
+}
+
+.features .single-col {
+	.column(12);
+	@media @phone {
+		.column(6);
+	}
+	@media @tablet {
+		.column(4);
+	}
+}
+
+.statistics .single-col {
+	.column(12);
+	@media @phone {
+		.column(6);
+	}
+	@media @tablet {
+		.column(3);
+	}
+}
+
+.our-team .single-col {
+	.column(12);
+	@media @tablet {
+		.column(4);
+	}
+}
+
+.footer-main .single-col {
+	.column(12);
+	@media @phone {
+		.column(6);
+	}
 	@media @tablet {
 		.column(3);
 	}

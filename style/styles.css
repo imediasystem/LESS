@@ -1,0 +1,106 @@
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+.our-services .single-col {
+  display: inline;
+  float: left;
+  width: 97.36842105%;
+  margin: 0 1.31578947%;
+}
+@media only screen and (min-width: 1024px) {
+  .our-services .single-col {
+    display: inline;
+    float: left;
+    width: 22.36842105%;
+    margin: 0 1.31578947%;
+  }
+}
+.features .single-col {
+  display: inline;
+  float: left;
+  width: 97.36842105%;
+  margin: 0 1.31578947%;
+}
+@media only screen and (min-width: 768px) {
+  .features .single-col {
+    display: inline;
+    float: left;
+    width: 47.36842105%;
+    margin: 0 1.31578947%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .features .single-col {
+    display: inline;
+    float: left;
+    width: 30.70175439%;
+    margin: 0 1.31578947%;
+  }
+}
+.statistics .single-col {
+  display: inline;
+  float: left;
+  width: 97.36842105%;
+  margin: 0 1.31578947%;
+}
+@media only screen and (min-width: 768px) {
+  .statistics .single-col {
+    display: inline;
+    float: left;
+    width: 47.36842105%;
+    margin: 0 1.31578947%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .statistics .single-col {
+    display: inline;
+    float: left;
+    width: 22.36842105%;
+    margin: 0 1.31578947%;
+  }
+}
+.our-team .single-col {
+  display: inline;
+  float: left;
+  width: 97.36842105%;
+  margin: 0 1.31578947%;
+}
+@media only screen and (min-width: 1024px) {
+  .our-team .single-col {
+    display: inline;
+    float: left;
+    width: 30.70175439%;
+    margin: 0 1.31578947%;
+  }
+}
+.footer-main .single-col {
+  display: inline;
+  float: left;
+  width: 97.36842105%;
+  margin: 0 1.31578947%;
+}
+@media only screen and (min-width: 768px) {
+  .footer-main .single-col {
+    display: inline;
+    float: left;
+    width: 47.36842105%;
+    margin: 0 1.31578947%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .footer-main .single-col {
+    display: inline;
+    float: left;
+    width: 22.36842105%;
+    margin: 0 1.31578947%;
+  }
+}
