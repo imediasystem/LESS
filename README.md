@@ -1,7 +1,7 @@
 ## 🔥 Project Name - LESS
 See the live version of [LESS](https://imediasystem.github.io/LESS/) ↗️
 
-I utilize the LESS preprocessor to ensure your website's code is streamlined and professional. The result? A fast, Google-friendly, and mobile-responsive site that focuses on performance rather than heavy, redundant technology.
+By leveraging the LESS preprocessor, I deliver websites with optimized, clean, and perfectly organized CSS code. For you, this means a lightning-fast website that ranks effectively on Google and remains fully responsive — all without any unnecessary technological bloat.
 
 ## 📚 Technologies / Frameworks / Platforms / Libraries
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
