@@ -1,6 +1,8 @@
 ## 🔥 Project Name - LESS
 See the live version of [LESS](https://imediasystem.github.io/LESS/) ↗️
 
+I utilize the LESS preprocessor to ensure your website's code is streamlined and professional. The result? A fast, Google-friendly, and mobile-responsive site that focuses on performance rather than heavy, redundant technology.
+
 ## 📚 Technologies / Frameworks / Platforms / Libraries
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
