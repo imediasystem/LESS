@@ -200,3 +200,23 @@ a {
   margin-bottom: 40px;
   text-align: center;
 }
+header {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #FFF;
+  border-bottom: 1px solid #DDD;
+  box-shadow: 0 0 1px #DDD;
+}
+header .nav-bar {
+  height: 63px;
+}
+header .nav-bar .nav-logo {
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}

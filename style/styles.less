@@ -1,5 +1,7 @@
 @import 'grid.less';
 @import 'helpers.less';
+@import 'colors.less';
+@import 'helpers.less';
 
 @phone: ~"only screen and (min-width: 768px)";
 @tablet: ~"only screen and (min-width: 1024px)";
@@ -82,7 +84,7 @@ a {
 	.center-text;
 }
 
-//Buttons
+// Buttons
 .basic-button(@color;@background-color) {
 	color: @color;
 	background-color: @background-color;
@@ -92,4 +94,24 @@ a {
 	font-weight: 400;
 	line-height: @basic-line-height;
 	text-transform: uppercase;
+}
+
+// Header
+header {
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: @basic-background;
+	border-bottom: 1px solid @basic-border-color;
+	box-shadow: 0 0 1px @basic-border-color;
+	.nav-bar {
+		height: 63px;
+		.nav-logo {
+			.float-left;
+			.center-vertical;
+			z-index: 2;
+		}
+	}	
 }
