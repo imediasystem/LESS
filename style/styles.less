@@ -117,6 +117,14 @@ header {
 	}	
 }
 
+// Hiding Main Menu for Phones
+#main-menu {
+	.invisible;
+	@media @phone {
+		.block;
+	}
+}
+
 .main-menu-content {
 	.float-right;
 	.center-vertical;
@@ -144,5 +152,15 @@ header {
 				font-size: 24px;
 			}
 		}
+	}
+}
+
+// Mobile Menu
+.slicknav_menu {
+	position: fixed;
+	left: 0;
+	right: 0;
+	@media @phone {
+		.invisible;
 	}
 }

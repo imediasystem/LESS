@@ -252,6 +252,14 @@ header .nav-bar .nav-logo {
   transform: translateY(-50%);
   z-index: 2;
 }
+#main-menu {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  #main-menu {
+    display: block;
+  }
+}
 .main-menu-content {
   float: right;
   position: relative;
@@ -284,4 +292,14 @@ header .nav-bar .nav-logo {
 }
 .main-menu-content ul li i {
   font-size: 24px;
+}
+.slicknav_menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+@media only screen and (min-width: 768px) {
+  .slicknav_menu {
+    display: none;
+  }
 }
