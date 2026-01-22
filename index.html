@@ -23,6 +23,9 @@
         <script src="https://kit.fontawesome.com/16e30c9f26.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 
+        <!-- bxSlider CSS file -->
+	    <link href="style/jquery.bxslider.css" rel="stylesheet" />
+
         <!-- Style LESS -->
 	    <link rel="stylesheet" href="style/main.less" type="text/less">
 
@@ -34,6 +37,9 @@
 
 	    <!-- Mobile Menu -->
 	    <script src="js/jquery.slicknav.min.js"></script>
+
+        <!-- bxSlider Javascript file -->
+	    <script src="js/jquery.bxslider.min.js"></script>
     </head>
 
     <body>
@@ -526,6 +532,8 @@
                     prependTo: '#attach-mobile-menu',
                     label: ''
                 });
+                /* Main Slider */
+		        $('#main-slider').bxSlider();
             });
 	    </script>
     </body>
