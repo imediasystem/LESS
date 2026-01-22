@@ -303,3 +303,12 @@ header .nav-bar .nav-logo {
     display: none;
   }
 }
+.slicknav_menu i {
+  display: none;
+}
+.slicknav_menu ul {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #DDD;
+  box-shadow: 0 0 1px #DDD;
+}

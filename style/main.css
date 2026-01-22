@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  *zoom: 1;
+  zoom: 1;
 }
 body:before,
 body:after {
@@ -215,7 +215,6 @@ a img {
 body {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
-  color: #888;
 }
 p {
   margin: 0 0 15px;
@@ -483,7 +482,7 @@ header .nav-bar .nav-logo {
 }
 /* IE6/7 support */
 .slicknav_menu {
-  *zoom: 1;
+  zoom: 1;
 }
 /* 
     User Default Style
@@ -554,11 +553,7 @@ header .nav-bar .nav-logo {
   color: #fff;
 }
 .slicknav_nav a:hover {
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  background: #ccc;
-  color: #222;
+  color: #45B6AF;
 }
 .slicknav_nav .slicknav_txtnode {
   margin-left: 15px;
