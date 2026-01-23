@@ -97,6 +97,11 @@ a {
 	text-transform: uppercase;
 }
 
+// Main Container 
+#main-container {
+	padding-top: 63px;
+}
+
 // Header
 header {
 	z-index: 100;
@@ -200,5 +205,50 @@ header {
 		&:after {
 			.dark-overlay;
 		}
+	}
+}
+
+// Images In Slider
+.bx-viewport {
+	img {
+		.invisible;
+		@media @tablet {
+			.block;
+			position: absolute;
+			right: 10%;
+			top: 20%;
+		}
+	}
+}
+
+// Slider COntent
+.main-slider-content {
+	padding: 15% 2%;
+	color: @brightest-text-color;
+	position: relative;
+	z-index: 1;
+	h1 {
+		font-size: 26px;
+		font-weight: bold;
+		line-height: 33px;
+		@media @tablet {
+			font-size: 48px;
+			line-height: 60px;
+		}
+	}
+	p {
+		font-size: 12px;
+		line-height: @basic-line-height;
+		@media @tablet {
+			font-size: 18px;
+		}
+	}
+	a {
+		position: relative;
+		.basic-button(@brightest-text-color;none);
+		margin: 8px 0;
+		padding: 12px 30px;
+		border: 1px solid @brightest-text-color;
+		border-radius: 5px;
 	}
 }
