@@ -25,21 +25,18 @@
 
         <!-- bxSlider CSS file -->
 	    <link href="style/jquery.bxslider.css" rel="stylesheet" />
-
         <!-- Style LESS -->
 	    <link rel="stylesheet" href="style/main.less" type="text/less">
-
         <!-- JS LESS -->
 	    <script src="js/less.min.js"></script>
-
         <!-- jQuery -->
         <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-
 	    <!-- Mobile Menu -->
 	    <script src="js/jquery.slicknav.min.js"></script>
-
-        <!-- bxSlider Javascript file -->
+        <!-- bxSlider  -->
 	    <script src="js/jquery.bxslider.min.js"></script>
+        <!-- images loaded -->
+	    <script src="js/imagesloaded.pkgd.min.js"></script>
     </head>
 
     <body>
@@ -49,7 +46,7 @@
 
         <!-- Navigation Menu -->
 
-        <div class="main-container" id="main-container">
+        <div id="main-container">
             <header>
                 <nav>
                     <div class="container">
@@ -78,7 +75,7 @@
 
             <!-- Slider -->
 
-            <div class="top-slider" id="top-slider">
+            <section class="top-slider" id="top-slider">
                 <ul class="bxslider" id="main-slider">
                     <li>
                         <div class="main-slide-1">
@@ -87,7 +84,7 @@
                                     <h1>Strony Internetowe</h1>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate libero suscipit deserunt recusandae placeat? Quod exercitationem atque ex fugit incidunt cumque maiores ut repudiandae sapiente, quisquam veniam, quia et labore.</p>
                                     <a href="">ZOBACZ</a>
-                                    <img src="assets/images/slider_1_phone.png" alt="Storna internetowa na smartfonie">
+                                    <img src="assets/images/slider_3_desktop.png" alt="Storna internetowa na smartfonie">
                                 </div>
                             </div>
                         </div>
@@ -111,20 +108,20 @@
                                     <h1>Web Design STudio</h1>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate libero suscipit deserunt recusandae placeat? Quod exercitationem atque ex fugit incidunt cumque maiores ut repudiandae sapiente, quisquam veniam, quia et labore.</p>
                                     <a href="">ZOBACZ</a>
-                                    <img src="assets/images/slider_3_desktop.png" alt="Storna internetowa na laptopie">
+                                    <img src="assets/images/slider_1_phone.png" alt="Storna internetowa na laptopie">
                                 </div>
                             </div>
                         </div>
                     </li>
                 </ul>
-            </div>
+            </section>
 
             <!-- Services -->
 
-            <div class="services" id="services">
+            <section class="services" id="services">
                 <div class="section-title">
                     <div class="container">
-                        <h2>Nasze Usługi</h2>
+                        <h2>Nasze usługi</h2>
                         <p>Zobacz w czym możemy Ci pomóc.</p>
                     </div>
                 </div>
@@ -133,30 +130,30 @@
                         <div class="single-col">
                             <span><i class="fa-solid fa-laptop-code"></i></span>
                             <h3>WEB DESIGN</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, architecto ea eveniet totam doloremque consequatur dignissimos, quidem commodi pariatur saepe atque ipsa blanditiis non ex neque perferendis soluta error iure.</p>
+                            <p>Aenean sed justo tincidunt, vulputate nisi si amet, rutrum ligula. Pellentesque dictum uam ornare. Sed elit le rut.</p>
                         </div>
                         <div class="single-col">
-                            <span><i class="fa-solid fa-user-secret"></i></span>
+                            <span><i class="fa-solid fa-user-shield"></i></span>
                             <h3>CYBERSECURITY</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, architecto ea eveniet totam doloremque consequatur dignissimos, quidem commodi pariatur saepe atque ipsa blanditiis non ex neque perferendis soluta error iure.</p>
+                            <p>Aenean sed justo tincidunt, vulputate nisi si amet, rutrum ligula. Pellentesque dictum uam ornare. Sed elit le rut.</p>
                         </div>
                         <div class="single-col">
                             <span><i class="fa-solid fa-database"></i></span>
                             <h3>HOSTING</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, architecto ea eveniet totam doloremque consequatur dignissimos, quidem commodi pariatur saepe atque ipsa blanditiis non ex neque perferendis soluta error iure.</p>
+                            <p>Aenean sed justo tincidunt, vulputate nisi si amet, rutrum ligula. Pellentesque dictum uam ornare. Sed elit le rut.</p>
                         </div>
                         <div class="single-col">
-                            <span><i class="fa-solid fa-line-chart"></i></span>
+                            <span><i class="fa fa-line-chart"></i></span>
                             <h3>SEO</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, architecto ea eveniet totam doloremque consequatur dignissimos, quidem commodi pariatur saepe atque ipsa blanditiis non ex neque perferendis soluta error iure.</p>
+                            <p>Aenean sed justo tincidunt, vulputate nisi si amet, rutrum ligula. Pellentesque dictum uam ornare. Sed elit le rut.</p>
                         </div>
                     </div>
-                </div>
-            </div>
+		        </div>                
+            </section>
 
             <!-- Portfolio -->
 
-            <div class="portfolio" id="portfolio">
+            <section class="portfolio" id="portfolio">
                 <div class="section-title">
                     <div class="container">
                         <h2>Portfolio</h2>
@@ -224,23 +221,24 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             <!-- Offer -->
 
-            <div class="content-offer" id="offer">
-                <div class="container">
-                    <div class="section-title">                    
+            <section class="content-offer" id="offer">
+                <div class="section-title">
+                    <div class="container">                    
                         <h2>Oferta</h2>
                         <p>Nowoczesne w pełni responsywne strony www.</p>                    
+                    
+                        <img src="assets/images/world-wide-web.png" alt="Projekt strony www na laptopie">
                     </div>
-                    <img src="assets/images/world-wide-web.png" alt="Projekt strony www na laptopie">
                 </div>
-            </div>
+            </section>
 
             <!-- Video -->
 
-            <div class="section-video">
+            <section class="section-video">
                 <div id="movie">
 
                 </div>
@@ -251,20 +249,20 @@
                 <div class="player">
 
                 </div>
-            </div>
+            </section>
 
             <!-- Call To Action -->
 
-            <div class="section-video-text">
+            <section class="section-video-text">
                 <div class="container">
                     <h2>Skontaktuj się z nami</h2>
                     <a href="" class="button">KLIKNIJ TUTAJ</a>
                 </div>
-            </div>
+            </section>
 
             <!-- Features -->
 
-            <div class="features" id="features">
+            <section class="features" id="features">
                 <div class="section-title">
                     <div class="container">
                         <h2>Dlaczego My?</h2>
@@ -318,11 +316,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             <!-- Statistics -->
 
-            <div class="statistics" id="statistics">
+            <section class="statistics" id="statistics">
                 <div class="container">
                     <div class="statistics-single-item single-col">
                         <div class="statistics-content">
@@ -349,22 +347,22 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             <!-- Paralax -->
 
-            <div class="photo-banner">
+            <section class="photo-banner">
                 <div class="photo-banner-inner">
                     <div class="container">
                         <h2>Banner Paralax</h2>
                         <a href="#" class="button">ZOBACZ</a>
                     </div>
                 </div>
-            </div>
+            </section>
 
             <!-- Team -->
 
-            <div class="our-team" id="our-team">
+            <section class="our-team" id="our-team">
                 <div class="container">
                     <div class="section-title">                    
                         <h2>Team</h2>
@@ -415,11 +413,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             <!-- Opinions -->
 
-            <div class="opinions">
+            <section class="opinions">
                 <div class="container">
                     <div class="section-title">                    
                         <h2>Opinie klientów</h2>
@@ -446,7 +444,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </section>
 
             <!-- Footer -->
 
@@ -532,15 +530,16 @@
                     prependTo: '#attach-mobile-menu',
                     label: ''
                 });
-                /* Main Slider */
-		        $('#main-slider').bxSlider({
-                    mode: 'fade',
-                    captions: true,
-                    auto: true,
-                    pager: false,
-                    slideWidth: 1280
-                });
             });
+            $('#main-container').imagesLoaded(function(){
+                /* glowny slider */
+                $('#main-slider').bxSlider({
+                    mode: 'fade',
+                    auto: true,
+                    controls: true,
+                    pager: false
+                });
+            });          
 	    </script>
     </body>
 </html>

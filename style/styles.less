@@ -16,6 +16,9 @@
 
 .our-services .single-col {
 	.column(12);
+	@media @phone {
+		.column(6);
+	}
 	@media @tablet {
 		.column(3);
 	}
@@ -98,13 +101,28 @@ a {
 }
 
 // Main Container 
-#main-container {
+.top-slider {
 	padding-top: 63px;
+}
+.services {
+	padding-top: 70px;
+}
+.portfolio {
+	padding-top: 70px;
+}
+.content-offer {
+	padding-top: 70px;
+}
+.our-team {
+	padding-top: 70px;
+}
+.features {
+	padding-top: 70px;
 }
 
 // Header
 header {
-	z-index: 100;
+	z-index: 1000;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -178,8 +196,13 @@ header {
 }
 
 // Main Slider
+
+.top-slider {
+	
+}
 .bxslider {
 	.main-slide-1 {
+		height: 100vh;
 		background-image: url('../assets/images/slider_1.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -189,6 +212,7 @@ header {
 		}
 	}
 	.main-slide-2 {
+		height: 100vh;
 		background-image: url('../assets/images/slider_2.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -198,6 +222,7 @@ header {
 		}
 	}
 	.main-slide-3 {
+		height: 100vh;
 		background-image: url('../assets/images/slider_3.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -215,13 +240,13 @@ header {
 		@media @tablet {
 			.block;
 			position: absolute;
-			right: 10%;
-			top: 20%;
+			right: 5%;
+			top: 60%;
 		}
 	}
 }
 
-// Slider COntent
+// Slider Content
 .main-slider-content {
 	padding: 15% 2%;
 	color: @brightest-text-color;
@@ -229,8 +254,8 @@ header {
 	z-index: 1;
 	h1 {
 		font-size: 26px;
-		font-weight: bold;
 		line-height: 33px;
+		font-weight: bold;
 		@media @tablet {
 			font-size: 48px;
 			line-height: 60px;
