@@ -461,7 +461,7 @@ header .nav-bar .nav-logo {
   display: inline-block;
   width: 90px;
   height: 90px;
-  background: #EEE;
+  background: #45B6AF;
   text-align: center;
   border-radius: 50%;
   -moz-border-radius: 50%;
@@ -470,14 +470,14 @@ header .nav-bar .nav-logo {
   transition: all 0.2s ease-in-out;
 }
 .our-services .single-col span:hover {
-  background: #45B6AF;
+  background: #EEE;
 }
 .our-services .single-col span:hover > i {
-  color: #FFF;
+  color: #45B6AF;
   cursor: default;
 }
 .our-services .single-col span i {
-  color: #45B6AF;
+  color: #FFF;
   font-size: 30px;
   line-height: 90px;
 }
