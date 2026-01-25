@@ -11,7 +11,7 @@
         <title>LESS</title>
         <meta name="description" content="Strony internetowe Zawiercie">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/main.css" rel="stylesheet" />
 
         <!-- Font Google -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,11 +21,14 @@
 
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/16e30c9f26.js" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
         <!-- bxSlider CSS file -->
 	    <link href="style/jquery.bxslider.css" rel="stylesheet" />
         <!-- Style LESS -->
-	    <link rel="stylesheet" href="style/main.less" type="text/less">
+	    <link rel="stylesheet" href="style/main.less" type="text/less" />
+        <!-- Owl Carousel -->
+        <link href="owl-carousel/owl.carousel.css" rel="stylesheet" />
+        <link href="owl-carousel/owl.theme.css" rel="stylesheet" />
         
     </head>
 
@@ -172,7 +175,7 @@
                                 <img src="assets/images/owl_slider/os1.jpg" alt="Warsztat samochodowy">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-inner">
-                                        <h3>Warsztat samochodowy</h3>
+                                        <h3>Pitagoras</h3>
                                         <p>05 stycznia 2025</p>
                                         <a href="" class="portfolio-link-left"><i class="fa fa-search"></i></a>
                                         <a href="" class="portfolio-link-left"><i class="fa fa-file-image-o"></i></a>
@@ -183,7 +186,7 @@
                                 <img src="assets/images/owl_slider/os2.jpg" alt="Festiwal gitarowy">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-inner">
-                                        <h3>Festiwal gitarowy</h3>
+                                        <h3>NFP Partners</h3>
                                         <p>07 stycznia 2025</p>
                                         <a href="" class="portfolio-link-left"><i class="fa fa-search"></i></a>
                                         <a href="" class="portfolio-link-left"><i class="fa fa-file-image-o"></i></a>
@@ -194,7 +197,7 @@
                                 <img src="assets/images/owl_slider/os3.jpg" alt="Studio fotograficzne">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-inner">
-                                        <h3>STudio Fotograficzne</h3>
+                                        <h3>Kwiatowa Manufaktura</h3>
                                         <p>09 stycznia 2025</p>
                                         <a href="" class="portfolio-link-left"><i class="fa fa-search"></i></a>
                                         <a href="" class="portfolio-link-left"><i class="fa fa-file-image-o"></i></a>
@@ -205,7 +208,7 @@
                                 <img src="assets/images/owl_slider/os4.jpg" alt="Orient Travel">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-inner">
-                                        <h3>Orient Travel</h3>
+                                        <h3>STudio Fotograficzne</h3>
                                         <p>11 stycznia 2025</p>
                                         <a href="" class="portfolio-link-left"><i class="fa fa-search"></i></a>
                                         <a href="" class="portfolio-link-right"><i class="fa fa-file-image-o"></i></a>
@@ -216,7 +219,18 @@
                                 <img src="assets/images/owl_slider/os5.jpg" alt="Transport">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-inner">
-                                        <h3>Transport</h3>
+                                        <h3>Warsztat samochodowy</h3>
+                                        <p>13 stycznia 2025</p>
+                                        <a href="" class="portfolio-link-left"><i class="fa fa-search"></i></a>
+                                        <a href="" class="portfolio-link-left"><i class="fa fa-file-image-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item">
+                                <img src="assets/images/owl_slider/os6.jpg" alt="Transport">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-inner">
+                                        <h3>Festiwal gitarowy</h3>
                                         <p>13 stycznia 2025</p>
                                         <a href="" class="portfolio-link-left"><i class="fa fa-search"></i></a>
                                         <a href="" class="portfolio-link-left"><i class="fa fa-file-image-o"></i></a>
@@ -536,8 +550,10 @@
 	    <script src="js/jquery.slicknav.min.js"></script>
         <!-- bxSlider  -->
 	    <script src="js/jquery.bxslider.min.js"></script>
-        <!-- images loaded -->
+        <!-- Images Loaded -->
 	    <script src="js/imagesloaded.pkgd.min.js"></script>
+        <!-- Owl Carousel -->
+	    <script src="owl-carousel/owl.carousel.min.js"></script>
 
         <script>
             $(document).ready(function(){
@@ -548,13 +564,20 @@
                 });
             });
             $('#main-container').imagesLoaded(function(){
-                /* glowny slider */
+                /* Main Slider */
                 $('#main-slider').bxSlider({
                     mode: 'fade',
                     auto: true,
                     controls: true,
                     pager: false
                 });
+                /* Portfolio Slider */
+                $('#portfolio-carousel').owlCarousel({
+			    autoPlay: 10000,
+			    items: 3,
+			    itemsDesktopSmall: [1024,2],
+			    itemsTablet: [768,1]
+		        });
             });          
 	    </script>
     </body>
