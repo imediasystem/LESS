@@ -102,7 +102,7 @@ h2 {
   margin-right: 0;
   margin-bottom: 12px;
   color: #434343;
-  font-weight: 400;
+  font-weight: bold;
 }
 h3 {
   font-size: 18px;
@@ -111,7 +111,7 @@ h3 {
   margin-right: 0;
   margin-bottom: 18px;
   color: #434343;
-  font-weight: 400;
+  font-weight: bold;
 }
 h1,
 h2,
@@ -241,19 +241,19 @@ a {
   text-align: center;
 }
 .services {
-  padding-top: 70px;
+  padding-top: 80px;
 }
 .portfolio {
-  padding-top: 70px;
+  padding-top: 80px;
 }
 .content-offer {
-  padding-top: 70px;
+  padding-top: 80px;
 }
 .our-team {
-  padding-top: 70px;
+  padding-top: 80px;
 }
 .features {
-  padding-top: 70px;
+  padding-top: 80px;
 }
 header {
   z-index: 1000;
@@ -402,29 +402,35 @@ header .nav-bar .nav-logo {
   color: #FFF;
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 .main-slider-content h1 {
   font-size: 26px;
   line-height: 33px;
   font-weight: bold;
+  margin: 10px 0;
 }
 @media only screen and (min-width: 1024px) {
   .main-slider-content h1 {
     font-size: 48px;
     line-height: 60px;
+    text-align: left;
   }
 }
 .main-slider-content p {
   font-size: 12px;
   line-height: 24px;
+  margin: 10px 0;
 }
 @media only screen and (min-width: 1024px) {
   .main-slider-content p {
     font-size: 18px;
+    text-align: left;
   }
 }
 .main-slider-content a {
   position: relative;
+  display: block;
   color: #FFF;
   background-color: none;
   text-decoration: none;
@@ -433,10 +439,17 @@ header .nav-bar .nav-logo {
   font-weight: 400;
   line-height: 24px;
   text-transform: uppercase;
-  margin: 8px 0;
+  margin: 10px 0;
   padding: 12px 30px;
   border: 1px solid #FFF;
   border-radius: 5px;
+}
+@media only screen and (min-width: 1024px) {
+  .main-slider-content a {
+    text-align: left;
+    display: block;
+    width: max-content;
+  }
 }
 .partners {
   position: relative;
@@ -450,7 +463,7 @@ header .nav-bar .nav-logo {
   max-width: 100%;
 }
 .our-services {
-  padding: 80px 0 60px;
+  padding: 70px 10px;
   overflow: auto;
 }
 .our-services .single-col {
@@ -480,6 +493,9 @@ header .nav-bar .nav-logo {
   color: #FFF;
   font-size: 30px;
   line-height: 90px;
+}
+.our-services .single-col p {
+  margin: 0 0 30px;
 }
 @media only screen and (min-width: 1024px) {
   .our-services .single-col {

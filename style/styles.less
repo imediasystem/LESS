@@ -102,19 +102,19 @@ a {
 
 // Main Container 
 .services {
-	padding-top: 70px;
+	padding-top: 80px;
 }
 .portfolio {
-	padding-top: 70px;
+	padding-top: 80px;
 }
 .content-offer {
-	padding-top: 70px;
+	padding-top: 80px;
 }
 .our-team {
-	padding-top: 70px;
+	padding-top: 80px;
 }
 .features {
-	padding-top: 70px;
+	padding-top: 80px;
 }
 
 // Header
@@ -246,29 +246,40 @@ header {
 	color: @brightest-text-color;
 	position: relative;
 	z-index: 1;
+	text-align: center;	
 	h1 {
 		font-size: 26px;
 		line-height: 33px;
 		font-weight: bold;
+		margin: 10px 0;
 		@media @tablet {
 			font-size: 48px;
 			line-height: 60px;
+			text-align: left;
 		}
 	}
 	p {
 		font-size: 12px;
 		line-height: @basic-line-height;
+		margin: 10px 0;
 		@media @tablet {
 			font-size: 18px;
+			text-align: left;
 		}
 	}
 	a {
 		position: relative;
+		display: block;
 		.basic-button(@brightest-text-color;none);
-		margin: 8px 0;
+		margin: 10px 0;
 		padding: 12px 30px;
 		border: 1px solid @brightest-text-color;
 		border-radius: 5px;
+		@media @tablet {
+			text-align: left;
+			display: block;
+    		width: max-content;			
+		}
 	}
 }
 
@@ -288,7 +299,7 @@ header {
 
 // Services
 .our-services {
-	padding: 80px 0 60px;
+	padding: 70px 10px;
 	.overflow-fix;
 	.single-col {
 		margin-bottom: 30px;
@@ -313,6 +324,9 @@ header {
 				font-size: 30px;
 				line-height: 90px;
 			}
+		}
+		p {
+			margin: 0 0 30px;
 		}
 		@media @tablet {
 			margin-bottom: 0;
