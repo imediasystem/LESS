@@ -348,6 +348,18 @@ header {
 		width: 100%;
 		cursor: move;
 	}
+	&:hover .portfolio-hover {
+		opacity: 1;
+	}
+	&:hover h3 {
+		.translate3d(0%;0%;0%);
+	}
+	&:hover p {
+		.translate3d(0%;0%;0%);
+	}
+	&:hover a {
+		.translate3d(0%;0%;0%);
+	}
 }
 
 .portfolio-hover {
@@ -389,6 +401,12 @@ header {
 			font-size: 14px;
 			color: @basic-background;
 			.basic-transition;
+		}
+		&:hover {
+			background-color: @basic-background;
+		}
+		&:hover i {
+			color: @accent-color;
 		}
 	}
 	a.portfolio-link-left {

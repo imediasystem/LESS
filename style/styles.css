@@ -517,6 +517,24 @@ header .nav-bar .nav-logo {
   width: 100%;
   cursor: move;
 }
+.portfolio-item:hover .portfolio-hover {
+  opacity: 1;
+}
+.portfolio-item:hover h3 {
+  transform: translateX(0%);
+  transform: translateY(0%);
+  transform: translateZ(0%);
+}
+.portfolio-item:hover p {
+  transform: translateX(0%);
+  transform: translateY(0%);
+  transform: translateZ(0%);
+}
+.portfolio-item:hover a {
+  transform: translateX(0%);
+  transform: translateY(0%);
+  transform: translateZ(0%);
+}
 .portfolio-hover {
   position: absolute;
   top: 0;
@@ -576,6 +594,12 @@ header .nav-bar .nav-logo {
   font-size: 14px;
   color: #FFF;
   transition: all 0.2s ease-in-out;
+}
+.portfolio-hover-inner a:hover {
+  background-color: #FFF;
+}
+.portfolio-hover-inner a:hover i {
+  color: #45B6AF;
 }
 .portfolio-hover-inner a.portfolio-link-left {
   transition: all 0.4s ease-in-out;
