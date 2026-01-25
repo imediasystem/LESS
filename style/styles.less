@@ -333,3 +333,35 @@ header {
 		}
 	}
 }
+
+// Portfolio
+.portfolio {
+	.section-border-top;
+	.owl-pagination {
+		margin-top: 60px;
+	}
+}
+
+.portfolio-item {
+	width: 100%;
+	img {
+		width: 100%;
+		cursor: move;
+	}
+}
+
+.portfolio-hover {
+	.absolute-one-hundred-size;
+	.center-text;
+	.basic-transition;
+	overflow: hidden;
+	background-color: @box-portfolio-background;
+	opacity: 0;
+}
+
+.portfolio-hover-inner {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+}

@@ -502,3 +502,36 @@ header .nav-bar .nav-logo {
     margin-bottom: 0;
   }
 }
+.portfolio {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #DDD;
+}
+.portfolio .owl-pagination {
+  margin-top: 60px;
+}
+.portfolio-item {
+  width: 100%;
+}
+.portfolio-item img {
+  width: 100%;
+  cursor: move;
+}
+.portfolio-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  background-color: rgba(69, 182, 175, 0.85);
+  opacity: 0;
+}
+.portfolio-hover-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
