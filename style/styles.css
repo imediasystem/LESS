@@ -535,3 +535,51 @@ header .nav-bar .nav-logo {
   top: 50%;
   transform: translateY(-50%);
 }
+.portfolio-hover-inner h3 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 6px;
+  color: #FFF;
+  font-weight: bold;
+  transform: translateX(0%);
+  transform: translateY(-400%);
+  transform: translateZ(0%);
+  transition: all 0.6s ease-in-out;
+}
+.portfolio-hover-inner p {
+  color: #FFF;
+  margin-bottom: 20px;
+  transform: translateX(0%);
+  transform: translateY(-400%);
+  transform: translateZ(0%);
+  transition: all 0.6s ease-in-out;
+}
+.portfolio-hover-inner a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: 1px solid #FFF;
+  text-align: center;
+  margin: 0 5px;
+  transform: translateX(0%);
+  transform: translateY(400%);
+  transform: translateZ(0%);
+  transition: all 0.2s ease-in-out;
+}
+.portfolio-hover-inner a i {
+  line-height: 40px;
+  font-size: 14px;
+  color: #FFF;
+  transition: all 0.2s ease-in-out;
+}
+.portfolio-hover-inner a.portfolio-link-left {
+  transition: all 0.4s ease-in-out;
+}
+.portfolio-hover-inner a.portfolio-link-right {
+  transition: all 0.6s ease-in-out;
+}
