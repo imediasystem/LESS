@@ -463,7 +463,7 @@ header .nav-bar .nav-logo {
   max-width: 100%;
 }
 .our-services {
-  padding: 70px 10px;
+  padding: 0 10px 50px;
   overflow: auto;
 }
 .our-services .single-col {
