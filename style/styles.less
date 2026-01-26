@@ -447,3 +447,23 @@ header {
 		.dark-overlay;
 	}
 }
+
+.video-line {
+	.center-text;
+	h2 {
+		.header-mixin(48px;26px;@brightest-text-color);
+		position: relative;
+	}
+	a {
+		position: relative;
+		.basic-button(@brightest-text-color;@accent-color);
+		margin: 10px 0;
+		padding: 12px 30px;
+		border-radius: 5px;
+		.basic-transition;
+		&:hover {
+			background: @alternate-background;
+			color: @accent-color;
+		}
+	}
+}
