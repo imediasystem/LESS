@@ -467,3 +467,27 @@ header {
 		}
 	}
 }
+
+// Call To Action
+.video-text {
+	background-color: @accent-color;
+	padding: 50px 0;
+	.center-text;
+	h2 {
+		color: @brightest-text-color;
+		margin-bottom: 20px;
+	}
+	a {
+		position: relative;
+		.basic-button(@brightest-text-color;none);
+		border: 2px solid @alternate-background;
+		margin: 10px 0;
+		padding: 12px 30px;
+		border-radius: 5px;
+		.basic-transition;
+		&:hover {
+			background: @alternate-background;
+			color: @accent-color;
+		}
+	}
+}
