@@ -306,7 +306,7 @@ header .nav-bar .nav-logo {
   transition: all 0.2s ease-in-out;
 }
 .main-menu-content ul li a:hover {
-  color: #45B6AF;
+  color: #62cccc;
 }
 @media only screen and (min-width: 1024px) {
   .main-menu-content ul li a {
@@ -474,7 +474,7 @@ header .nav-bar .nav-logo {
   display: inline-block;
   width: 90px;
   height: 90px;
-  background: #45B6AF;
+  background: #62cccc;
   text-align: center;
   border-radius: 50%;
   -moz-border-radius: 50%;
@@ -486,7 +486,7 @@ header .nav-bar .nav-logo {
   background: #EEE;
 }
 .our-services .single-col span:hover > i {
-  color: #45B6AF;
+  color: #62cccc;
   cursor: default;
 }
 .our-services .single-col span i {
@@ -509,6 +509,9 @@ header .nav-bar .nav-logo {
 }
 .portfolio .owl-pagination {
   margin-top: 60px;
+}
+.portfolio .section-title img {
+  margin: 35px 0;
 }
 .portfolio-item {
   width: 100%;
@@ -544,7 +547,7 @@ header .nav-bar .nav-logo {
   text-align: center;
   transition: all 0.2s ease-in-out;
   overflow: hidden;
-  background-color: rgba(69, 182, 175, 0.85);
+  background-color: rgba(98, 204, 204, 0.85);
   opacity: 0;
 }
 .portfolio-hover-inner {
@@ -599,11 +602,18 @@ header .nav-bar .nav-logo {
   background-color: #FFF;
 }
 .portfolio-hover-inner a:hover i {
-  color: #45B6AF;
+  color: #62cccc;
 }
 .portfolio-hover-inner a.portfolio-link-left {
   transition: all 0.4s ease-in-out;
 }
 .portfolio-hover-inner a.portfolio-link-right {
   transition: all 0.6s ease-in-out;
+}
+.content-offer {
+  padding: 55px 0 0;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #DDD;
+  text-align: center;
 }
