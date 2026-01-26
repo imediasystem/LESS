@@ -617,3 +617,30 @@ header .nav-bar .nav-logo {
   border-top-color: #DDD;
   text-align: center;
 }
+.video {
+  display: none;
+  position: relative;
+}
+.video .container {
+  padding: 175px 0;
+  z-index: 2;
+}
+@media only screen and (min-width: 1024px) {
+  .video {
+    display: block;
+  }
+}
+#movie {
+  width: 100%;
+  height: 100%;
+}
+#movie:after {
+  content: "";
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: none repeat 0 0 rgba(30, 30, 30, 0.5);
+}

@@ -427,3 +427,23 @@ header {
 	.section-border-top;
 	.center-text;
 }
+
+// Video
+.video {
+	.invisible;
+	position: relative;
+	.container {
+		padding: 175px 0;
+		z-index: 2;
+	}
+	@media @tablet {
+		.block;
+	}
+}
+
+#movie {
+	.size(100%;100%);
+	&:after {
+		.dark-overlay;
+	}
+}
