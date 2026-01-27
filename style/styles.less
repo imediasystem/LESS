@@ -433,7 +433,7 @@ header {
 	.invisible;
 	position: relative;
 	.container {
-		padding: 175px 0;
+		padding: 220px 0;
 		z-index: 2;
 	}
 	@media @tablet {
@@ -471,7 +471,7 @@ header {
 // Call To Action
 .video-text {
 	background-color: @accent-color;
-	padding: 50px 0;
+	padding: 70px 0;
 	.center-text;
 	h2 {
 		color: @brightest-text-color;
@@ -500,11 +500,26 @@ header {
 		.center-text;
 		margin-bottom: 30px;
 		span {
-			.block;
+			.inline-block;
 			.center-no-float;
-		}
-		.features-single-content {
-			margin-left: 0;
-		}
+			.size(90px;90px);
+			background: @accent-color;
+			.center-text;
+			.border-radius-single(50%);
+			margin-bottom: 30px;
+			.basic-transition;
+			&:hover {
+				background: @alternate-background;
+			}
+			&:hover > i {
+				color: @accent-color;
+				cursor: default;
+			}
+			i {
+				color: @brightest-text-color;
+				font-size: 30px;
+				line-height: 90px;				
+			}
+		}		
 	}
 }

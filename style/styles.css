@@ -622,7 +622,7 @@ header .nav-bar .nav-logo {
   position: relative;
 }
 .video .container {
-  padding: 175px 0;
+  padding: 220px 0;
   z-index: 2;
 }
 @media only screen and (min-width: 1024px) {
@@ -678,7 +678,7 @@ header .nav-bar .nav-logo {
 }
 .video-text {
   background-color: #62cccc;
-  padding: 50px 0;
+  padding: 70px 0;
   text-align: center;
 }
 .video-text h2 {
@@ -727,10 +727,27 @@ header .nav-bar .nav-logo {
   margin-bottom: 30px;
 }
 .features .single-col span {
-  display: block;
+  display: inline-block;
   float: none;
+  width: 90px;
+  height: 90px;
+  background: #62cccc;
   text-align: center;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin-bottom: 30px;
+  transition: all 0.2s ease-in-out;
 }
-.features .single-col .features-single-content {
-  margin-left: 0;
+.features .single-col span:hover {
+  background: #EEE;
+}
+.features .single-col span:hover > i {
+  color: #62cccc;
+  cursor: default;
+}
+.features .single-col span i {
+  color: #FFF;
+  font-size: 30px;
+  line-height: 90px;
 }
