@@ -705,3 +705,32 @@ header .nav-bar .nav-logo {
   background: #EEE;
   color: #62cccc;
 }
+.features {
+  padding: 80px 0 20px;
+  *zoom: 1;
+}
+.features:before,
+.features:after {
+  content: "";
+  display: table;
+}
+.features:after {
+  clear: both;
+}
+.features:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.features .single-col {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.features .single-col span {
+  display: block;
+  float: none;
+  text-align: center;
+}
+.features .single-col .features-single-content {
+  margin-left: 0;
+}
