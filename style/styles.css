@@ -706,7 +706,7 @@ header .nav-bar .nav-logo {
   color: #62cccc;
 }
 .features {
-  padding: 80px 0 20px;
+  padding: 80px 0 30px;
   *zoom: 1;
 }
 .features:before,
@@ -769,4 +769,22 @@ header .nav-bar .nav-logo {
 .statistics .single-col .statistics-content p {
   color: #434343;
   font-weight: bold;
+}
+.photo-banner {
+  text-align: center;
+  background: url('../assets/images/foto_banner.jpg') fixed 0 0;
+}
+.photo-banner .photo-banner-inner {
+  position: relative;
+  z-idex: 0;
+}
+.photo-banner .photo-banner-inner h2 {
+  font-size: 48px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 26px;
+  color: #FFF;
+  font-weight: bold;
+  position: relative;
 }
