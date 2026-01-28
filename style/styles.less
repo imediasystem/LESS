@@ -548,13 +548,30 @@ header {
 // Paralax
 .photo-banner {
 	.center-text;
-	background: url('../assets/images/foto_banner.jpg') fixed 0 0;
+	background: url('../assets/images/foto_banner_1.jpg') fixed 0 0;
 	.photo-banner-inner {
 		position: relative;
 		z-idex: 0;
+		.container {
+			position: relative;
+			z-index: 1;
+			padding: 220px 0;
+		}
 		h2 {
-		.header-mixin(48px;26px;@brightest-text-color);
-		position: relative;
+			.header-mixin(48px;26px;@brightest-text-color);
+		}
+		a {
+			position: relative;
+			.basic-button(@brightest-text-color;none);
+			border: 2px solid @alternate-background;
+			margin: 10px 0;
+			padding: 12px 30px;
+			border-radius: 5px;
+			.basic-transition;
+			&:hover {
+				background: @alternate-background;
+				color: @accent-color;
+			}
 		}
 	}
 }

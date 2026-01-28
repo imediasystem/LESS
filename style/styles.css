@@ -772,11 +772,16 @@ header .nav-bar .nav-logo {
 }
 .photo-banner {
   text-align: center;
-  background: url('../assets/images/foto_banner.jpg') fixed 0 0;
+  background: url('../assets/images/foto_banner_1.jpg') fixed 0 0;
 }
 .photo-banner .photo-banner-inner {
   position: relative;
   z-idex: 0;
+}
+.photo-banner .photo-banner-inner .container {
+  position: relative;
+  z-index: 1;
+  padding: 220px 0;
 }
 .photo-banner .photo-banner-inner h2 {
   font-size: 48px;
@@ -786,5 +791,24 @@ header .nav-bar .nav-logo {
   margin-bottom: 26px;
   color: #FFF;
   font-weight: bold;
+}
+.photo-banner .photo-banner-inner a {
   position: relative;
+  color: #FFF;
+  background-color: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  border: 2px solid #EEE;
+  margin: 10px 0;
+  padding: 12px 30px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+.photo-banner .photo-banner-inner a:hover {
+  background: #EEE;
+  color: #62cccc;
 }
