@@ -772,11 +772,11 @@ header .nav-bar .nav-logo {
 }
 .photo-banner {
   text-align: center;
-  background: url('../assets/images/foto_banner_1.jpg') fixed 0 0;
+  background: url('../assets/images/foto_banner_3.jpg') fixed 0 0;
 }
 .photo-banner .photo-banner-inner {
   position: relative;
-  z-idex: 0;
+  z-index: 0;
 }
 .photo-banner .photo-banner-inner .container {
   position: relative;
