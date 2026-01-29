@@ -445,19 +445,19 @@
                     <div class="opinions-content">
                         <ul class="bxslider" id="opinions-slider">
                             <li>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere atque iure magni sed dignissimos, voluptatum numquam voluptate consectetur assumenda, excepturi eum facilis temporibus deleniti aliquid! Provident aliquam dicta ullam repellat?</p>
+                                <p>Współpraca przy tworzeniu naszego serwisu przebiegła wzorowo. Od samego początku czuć było ogromne doświadczenie i profesjonalne podejście. Każdy mój pomysł został przeanalizowany, a sugestie dotyczące UX okazały się strzałem w dziesiątkę. Strona jest szybka, intuicyjna i świetnie wyświetla się na telefonach. Szczerze polecam każdemu, kto szuka solidnego wykonawcy!</p>
                                 <h3>Janusz Korcz</h3>
                             </li>
                             <li>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum architecto praesentium assumenda dolorum alias quia eligendi magni obcaecati at iste reprehenderit, error consequuntur ratione amet earum facere libero maxime! In.</p>
-                                <h3>Damian Nowak</h3>
+                                <p>Szukałam kogoś, kto przeleje wizję mojej marki na ekran i nie mogłam trafić lepiej. Strona jest po prostu piękna i idealnie oddaje charakter mojej działalności. Co ważne, mimo nowoczesnego designu, panel zarządzania treścią jest banalnie prosty w obsłudze. Kontakt był błyskawiczny, a poprawki wprowadzane niemal od ręki. Pełen profesjonalizm!</p>
+                                <h3>Alicja Nowak</h3>
                             </li>
                             <li>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum impedit delectus at aut, architecto quo vero veniam totam ducimus praesentium tempora tempore deserunt libero corrupti quae corporis molestiae et. Impedit!</p>
+                                <p>To nie jest moja pierwsza strona www, ale pierwsza, która realnie zaczęła na siebie zarabiać. Optymalizacja pod kątem wyszukiwarek oraz szybkość ładowania robią ogromną różnicę – widzę to w statystykach odwiedzin i liczbie zapytań od klientów. Jeśli zależy Ci na narzędziu sprzedażowym, a nie tylko 'ładnej wizytówce', to jest to właściwy adres.</p>
                                 <h3>Karol Frycz</h3>
                             </li>
                             <li>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem maiores quis eius. Nisi soluta distinctio illum eius quae dolorem odit inventore illo id error doloremque, mollitia aliquid ipsa similique temporibus.</p>
+                                <p>Zlecenie wykonane przed czasem, co w tej branży jest rzadkością. Dostałem gotowy produkt, który nie wymagał żadnych poprawek technicznych. Bardzo doceniam cierpliwość w tłumaczeniu kwestii technicznych oraz pomoc w konfiguracji hostingu i domeny. Czuję, że moja strona jest w dobrych rękach, a ja mogę zająć się prowadzeniem biznesu.</p>
                                 <h3>Jakub Duda</h3>
                             </li>
                         </ul>
@@ -565,6 +565,14 @@
                 });
                 /* countTo */
                 $('.timer').countTo();
+                /* Opinions Slider */
+                $('#opinions-slider').bxSlider({
+                    mode: 'vertical',
+                    auto: true,
+                    controls: false,
+                    pager: false
+                });
+
             });
             $('#main-container').imagesLoaded(function(){
                 /* Main Slider */

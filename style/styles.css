@@ -465,6 +465,15 @@ header .nav-bar .nav-logo {
   max-height: 7vh;
   max-width: 100%;
 }
+.services h2 {
+  font-size: 48px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 26px;
+  color: #434343;
+  font-weight: bold;
+}
 .our-services {
   padding: 0 10px 50px;
   overflow: auto;
@@ -511,11 +520,20 @@ header .nav-bar .nav-logo {
   border-top-style: solid;
   border-top-color: #DDD;
 }
+.portfolio h2 {
+  font-size: 48px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 26px;
+  color: #434343;
+  font-weight: bold;
+}
 .portfolio .owl-pagination {
   margin-top: 60px;
 }
 .portfolio .section-title img {
-  margin: 35px 0;
+  margin: 15px 0;
 }
 .portfolio-item {
   width: 100%;
@@ -621,6 +639,15 @@ header .nav-bar .nav-logo {
   border-top-color: #DDD;
   text-align: center;
 }
+.content-offer h2 {
+  font-size: 48px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 26px;
+  color: #434343;
+  font-weight: bold;
+}
 .video {
   display: none;
   position: relative;
@@ -712,6 +739,15 @@ header .nav-bar .nav-logo {
 .features {
   padding: 80px 0 30px;
   *zoom: 1;
+}
+.features h2 {
+  font-size: 48px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 26px;
+  color: #434343;
+  font-weight: bold;
 }
 .features:before,
 .features:after {
@@ -825,6 +861,15 @@ header .nav-bar .nav-logo {
   border-bottom-color: #DDD;
   overflow: auto;
 }
+.our-team h2 {
+  font-size: 48px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 26px;
+  color: #434343;
+  font-weight: bold;
+}
 .our-team .single-col {
   margin-bottom: 30px;
 }
@@ -860,7 +905,7 @@ header .nav-bar .nav-logo {
 }
 .members-social {
   list-style-type: none;
-  margin: 30px 0;
+  margin: 30px 0 0;
 }
 .members-social li {
   display: inline-block;
@@ -872,4 +917,13 @@ header .nav-bar .nav-logo {
 }
 .members-social li i:hover {
   color: #62cccc;
+}
+.opinions h2 {
+  font-size: 48px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 26px;
+  color: #434343;
+  font-weight: bold;
 }
