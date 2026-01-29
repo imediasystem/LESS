@@ -812,3 +812,22 @@ header .nav-bar .nav-logo {
   background: #EEE;
   color: #62cccc;
 }
+.our-team {
+  padding: 80px 0 10px;
+  text-align: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #DDD;
+  overflow: auto;
+}
+.our-team .single-col {
+  margin-bottom: 30px;
+}
+.team-members {
+  overflow: auto;
+  margin-bottom: 40px;
+}
+.team-members img {
+  border-radius: 10px;
+  margin: 10px 0 20px;
+}
