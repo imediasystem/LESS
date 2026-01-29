@@ -827,7 +827,28 @@ header .nav-bar .nav-logo {
   overflow: auto;
   margin-bottom: 40px;
 }
-.team-members img {
+.team-member {
+  text-align: center;
+}
+.team-member img {
+  margin-bottom: 30px;
+  width: 100%;
   border-radius: 10px;
-  margin: 10px 0 20px;
+}
+.team-member h3 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 14px;
+  color: #434343;
+  font-weight: bold;
+}
+.team-member span {
+  line-height: 24px;
+  margin: 0 0 18px;
+  display: inline-block;
+}
+.team-member p {
+  margin-bottom: 20px;
 }

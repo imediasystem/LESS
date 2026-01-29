@@ -589,9 +589,25 @@ header {
 
 .team-members {
 	.overflow-fix;
-	margin-bottom: 40px;
+	margin-bottom: 40px;	
+}
+
+.team-member {
+	.center-text;
 	img {
+		margin-bottom: 30px;
+		width: 100%;
 		border-radius: 10px;
-		margin: 10px 0 20px;
+	}
+	h3 {
+		.header-mixin(18px;14px);
+	}
+	span {
+		line-height: 24px;
+		margin: 0 0 18px;
+		.inline-block;
+	}
+	p {
+		margin-bottom: 20px;
 	}
 }
