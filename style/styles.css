@@ -918,6 +918,9 @@ header .nav-bar .nav-logo {
 .members-social li i:hover {
   color: #62cccc;
 }
+.opinions {
+  padding: 70px 0;
+}
 .opinions h2 {
   font-size: 48px;
   margin-top: 0;
@@ -926,4 +929,24 @@ header .nav-bar .nav-logo {
   margin-bottom: 26px;
   color: #434343;
   font-weight: bold;
+}
+.opinions ul {
+  padding: 0;
+}
+.opinions-content {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.opinions-content p {
+  line-height: 30px;
+  font-style: italic;
+  color: #A6A6A6;
+  margin-bottom: 30px;
+}
+.opinions-content h3 {
+  text-align: center;
+  margin: 0 0 18px;
+}
+.bx-viewport {
+  min-height: 130px;
 }

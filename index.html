@@ -445,7 +445,7 @@
                     <div class="opinions-content">
                         <ul class="bxslider" id="opinions-slider">
                             <li>
-                                <p>Współpraca przy tworzeniu naszego serwisu przebiegła wzorowo. Od samego początku czuć było ogromne doświadczenie i profesjonalne podejście. Każdy mój pomysł został przeanalizowany, a sugestie dotyczące UX okazały się strzałem w dziesiątkę. Strona jest szybka, intuicyjna i świetnie wyświetla się na telefonach. Szczerze polecam każdemu, kto szuka solidnego wykonawcy!</p>
+                                <p>Współpraca przy tworzeniu naszego serwisu przebiegła wzorowo. Od samego początku czuć było ogromne doświadczenie i profesjonalne podejście. Każdy mój pomysł został przeanalizowany, a sugestie dotyczące UX okazały się strzałem w dziesiątkę. Strona jest szybka, intuicyjna i świetnie wyświetla się na telefonach. Szczerze polecam!</p>
                                 <h3>Janusz Korcz</h3>
                             </li>
                             <li>
@@ -565,14 +565,6 @@
                 });
                 /* countTo */
                 $('.timer').countTo();
-                /* Opinions Slider */
-                $('#opinions-slider').bxSlider({
-                    mode: 'vertical',
-                    auto: true,
-                    controls: false,
-                    pager: false
-                });
-
             });
             $('#main-container').imagesLoaded(function(){
                 /* Main Slider */
@@ -589,6 +581,13 @@
 			    itemsDesktopSmall: [1024,2],
 			    itemsTablet: [768,1]
 		        });
+                /* Opinions Slider */
+                $('#opinions-slider').bxSlider({
+                    mode: 'vertical',
+                    auto: true,
+                    controls: false,
+                    pager: false
+                });
             });          
 	    </script>
     </body>
