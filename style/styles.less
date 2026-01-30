@@ -683,6 +683,9 @@ header {
 footer {
 	background-color: @footer-background;
 	color: @bright-text-color;
+	ul {
+		.list-style-none;
+	}
 }
 
 .footer-main {
@@ -700,7 +703,6 @@ footer {
 }
 
 .footer-social {
-	.list-style-none;
 	li {
 		.inline-block;
 		margin-right: 10px;
@@ -724,7 +726,6 @@ footer {
 
 .contacts {
 	ul {
-		.list-style-none;
 		li {
 			padding-top: 15px;
 			border-top: 1px solid @footer-social-borders;
@@ -746,7 +747,6 @@ footer {
 
 .footer-gallery {
 	ul {
-		.list-style-none;
 		li {
 			.inline-block;
 			margin-right: 2px;
@@ -759,6 +759,25 @@ footer {
 				&:hover {
 					opacity: 0.7;
 				}
+			}
+		}
+	}
+}
+
+.more-links {
+	li {
+		.block;
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+		border-bottom: 1px solid @footer-social-borders;
+		&:last-child {
+			border-bottom: none;
+		}
+		a {
+			color: @bright-text-color;
+			.basic-transition;
+			&:hover {
+				text-decoration: underline;
 			}
 		}
 	}
