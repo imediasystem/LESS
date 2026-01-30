@@ -950,3 +950,28 @@ header .nav-bar .nav-logo {
 .bx-viewport {
   min-height: 130px;
 }
+footer {
+  background-color: #43444D;
+  color: #D4D4D4;
+}
+.footer-main {
+  padding: 80px 0 65px;
+  overflow: auto;
+}
+.footer-main h3 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+  color: #FFF;
+  font-weight: bold;
+}
+.footer-main .single-col {
+  margin-bottom: 30px;
+}
+@media only screen and (min-width: 1024px) {
+  .footer-main .single-col {
+    margin-bottom: 0;
+  }
+}

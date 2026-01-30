@@ -678,3 +678,23 @@ header {
 .bx-viewport {
 	min-height: 130px;
 }
+
+// Footer
+footer {
+	background-color: @footer-background;
+	color: @bright-text-color;
+}
+
+.footer-main {
+	padding: 80px 0 65px;
+	.overflow-fix;
+	h3 {
+		.header-mixin(18px;30px;@brightest-text-color);
+	}
+	.single-col {
+		margin-bottom: 30px;
+		@media @tablet {
+			margin-bottom: 0;
+		}
+	}
+}
