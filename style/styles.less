@@ -689,12 +689,35 @@ footer {
 	padding: 80px 0 65px;
 	.overflow-fix;
 	h3 {
-		.header-mixin(18px;30px;@brightest-text-color);
+		.header-mixin(24px;30px;@brightest-text-color);
 	}
 	.single-col {
 		margin-bottom: 30px;
 		@media @tablet {
 			margin-bottom: 0;
+		}
+	}
+}
+
+.footer-social {
+	.list-style-none;
+	li {
+		.inline-block;
+		margin-right: 10px;
+		margin-bottom: 5px;
+		a {
+			.inline-block;
+			.center-text;
+			margin: 10px 6px;
+			text-decoration: none;
+			.basic-transition;
+			color: @bright-text-color;
+			&:hover {
+				color: @accent-color;
+			}
+			i {
+				line-height: 30px;
+			}
 		}
 	}
 }

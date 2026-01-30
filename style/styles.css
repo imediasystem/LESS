@@ -959,7 +959,7 @@ footer {
   overflow: auto;
 }
 .footer-main h3 {
-  font-size: 18px;
+  font-size: 24px;
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
@@ -974,4 +974,26 @@ footer {
   .footer-main .single-col {
     margin-bottom: 0;
   }
+}
+.footer-social {
+  list-style-type: none;
+}
+.footer-social li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.footer-social li a {
+  display: inline-block;
+  text-align: center;
+  margin: 10px 6px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  color: #D4D4D4;
+}
+.footer-social li a:hover {
+  color: #62cccc;
+}
+.footer-social li a i {
+  line-height: 30px;
 }
