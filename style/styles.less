@@ -782,3 +782,20 @@ footer {
 		}
 	}
 }
+
+.copyright {
+	padding: 20px 0;
+	background-color: @footer-copyright-background;
+	border-top: 1px solid @footer-social-borders;
+	p {
+		color: @basic-text-color;
+		margin: 0;
+		a {
+			color: @bright-text-color;
+			.basic-transition;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}

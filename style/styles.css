@@ -1043,3 +1043,19 @@ footer ul {
 .more-links li a:hover {
   text-decoration: underline;
 }
+.copyright {
+  padding: 20px 0;
+  background-color: #31323A;
+  border-top: 1px solid #535353;
+}
+.copyright p {
+  color: #888;
+  margin: 0;
+}
+.copyright p a {
+  color: #D4D4D4;
+  transition: all 0.2s ease-in-out;
+}
+.copyright p a:hover {
+  text-decoration: underline;
+}
