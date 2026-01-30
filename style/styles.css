@@ -997,3 +997,22 @@ footer {
 .footer-social li a i {
   line-height: 30px;
 }
+.contacts ul {
+  list-style-type: none;
+}
+.contacts ul li {
+  padding-top: 15px;
+  border-top: 1px solid #535353;
+}
+.contacts ul li:first-child {
+  padding-top: 0;
+  border-top: none;
+}
+.contacts ul li h4 {
+  margin: 0;
+  color: #FFF;
+}
+.contacts ul li .ddescription {
+  line-height: 24px;
+  margin: 0 0 10px;
+}
