@@ -31,7 +31,7 @@
         <link rel="stylesheet" href="owl-carousel/owl.carousel.css" />
         <link rel="stylesheet" href="owl-carousel/owl.theme.css" />
         <!-- Animate CSS-->
-        <link rel="stylesheet" href="style/animate.css" />
+        <link rel="stylesheet" href="style/animate.css" />        
         
     </head>
 
@@ -558,6 +558,8 @@
 	    <script src="owl-carousel/owl.carousel.min.js"></script>
         <!-- countTo -->
         <script src="js/jquery.countTo.js"></script>
+        <!-- Viewport Checker -->
+        <script src="js/jquery.viewportchecker.js"></script>
 
         <script>
             $(document).ready(function(){
@@ -568,7 +570,15 @@
                 });
                 /* countTo */
                 $('.timer').countTo();
+                /* Viewport Checker */
+                $('.services').viewportChecker({
+                    classToAdd: 'animated fadeInUp'
+                });
+                $('.our-team').viewportChecker({
+                    classToAdd: 'animated fadeInUp'
+                });
             });
+
             $('#main-container').imagesLoaded(function(){
                 /* Main Slider */
                 $('#main-slider').bxSlider({
