@@ -632,22 +632,6 @@ header .nav-bar .nav-logo {
 .portfolio-hover-inner a.portfolio-link-right {
   transition: all 0.6s ease-in-out;
 }
-.content-offer {
-  padding: 55px 0 0;
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: #DDD;
-  text-align: center;
-}
-.content-offer h2 {
-  font-size: 48px;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 26px;
-  color: #434343;
-  font-weight: bold;
-}
 .video {
   display: none;
   position: relative;
