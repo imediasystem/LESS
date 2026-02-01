@@ -91,7 +91,7 @@
                             <div class="container">
                                 <div class="main-slider-content">
                                     <h1 class="animated fadeInDown">iMedia SysteM</h1>
-                                    <p class="animated fadeInLeft">Strony, które nie tylko wyglądają, ale realizują cele biznesowe.<br>
+                                    <p class="animated fadeInLeft">Strony, które realizują cele biznesowe.<br>
                                     Skuteczność poparta doświadczeniem.</p>
                                     <a href="" class="animated fadeInUp">ZOBACZ</a>
                                     <img src="assets/images/slider_2_tablet.png" alt="Storna internetowa na tablecie" class="animated fadeInDown">
@@ -105,7 +105,7 @@
                                 <div class="main-slider-content">
                                     <h1 class="animated fadeInDown">Web Design STudio</h1>
                                     <p class="animated fadeInLeft">Łączę nowoczesny design z bezbłędnym kodem.<br>
-                                    Tworzę serwisy, które budują autorytet Twojej firmy w sieci.</p>
+                                    Tworzę serwisy, które budują Twój autorytet w sieci.</p>
                                     <a href="" class="animated fadeInUp">ZOBACZ</a>
                                     <img src="assets/images/slider_1_phone.png" alt="Storna internetowa na laptopie" class="animated fadeInDown">
                                 </div>
@@ -136,25 +136,25 @@
                 </div>
                 <div class="our-services">
                     <div class="container">
-                        <div class="single-col">
+                        <div class="single-col" data-animate="fadeInLeft">
                             <span><i class="fa-solid fa-laptop-code"></i></span>
                             <h3>STRONY WWW</h3>
                             <p>Tworzymy estetyczne i proste w obsłudze strony, które pomagają lokalnym firmom wyróżnić się na tle konkurencji i profesjonalnie zaprezentować ofertę. Twój serwis będzie świetnie wyglądał na telefonach, dzięki czemu klienci łatwo znajdą Cię w drodze do biura czy domu. Zadbasz o wizerunek, a my zajmiemy się tym, by strona była Twoją najlepszą wizytówką przez 24 godziny na dobę.</p>
                             <h3>Strony, których Twoja konkurencja będzie Ci zazdrościć.</h3>
                         </div>
-                        <div class="single-col">
+                        <div class="single-col" data-animate="fadeInUp">
                             <span><i class="fa-solid fa-user-shield"></i></span>
                             <h3>CYBERSECURITY</h3>
                             <p>Nawet mała firma może stać się celem cyberataku, dlatego wdrażamy sprawdzone zabezpieczenia, które chronią Twoje dane i spokój ducha. Dbamy o to, by Twoja strona nie zniknęła z sieci i była zawsze bezpieczna dla Twoich klientów, budując Twoją wiarygodność. Z nami nie musisz znać się na technologii - to my pilnujemy, aby nikt niepowołany nie miał dostępu do Twojego biznesu.</p>
                             <h3>Cyfrowy mur obronny dla Twojego biznesu - śpij spokojnie, my czuwamy.</h3>
                         </div>
-                        <div class="single-col">
+                        <div class="single-col" data-animate="fadeInUp">
                             <span><i class="fa-solid fa-database"></i></span>
                             <h3>HOSTING</h3>
                             <p>Zapomnij o skomplikowanych panelach technicznych - oferujemy hosting, który po prostu działa i pozwala Twojej stronie ładować się błyskawicznie. W ramach usługi zapewniamy stałą opiekę i pomoc, więc w razie jakichkolwiek pytań zawsze masz do kogo zadzwonić. Twoja strona będzie działać stabilnie, a my codziennie zadbamy o kopie zapasowe, by Twoje pliki były zawsze bezpieczne.</p>
                             <h3>Solidny fundament Twojego sukcesu w sieci - bez przerw i bez opóźnień.</h3>
                         </div>
-                        <div class="single-col">
+                        <div class="single-col" data-animate="fadeInRight">
                             <span><i class="fa fa-line-chart"></i></span>
                             <h3>SEO</h3>
                             <p>Pomagamy małym firmom wygrywać w lokalnych wynikach wyszukiwania, przyciągając osoby z Twojej okolicy bezpośrednio do Twojego punktu lub na stronę. Dzięki naszym działaniom Twoja oferta trafi do ludzi, którzy wpisują w Google konkretne usługi w Twoim mieście. Budujemy Twoją widoczność krok po kroku, dbając o to, by każda złotówka wydana na marketing przynosiła nowych klientów.</p>
@@ -560,16 +560,28 @@
                 $('.timer').countTo();
                 /* Viewport Checker */
                 $('.services').viewportChecker({
-                    classToAdd: 'animated fadeInUp'
+                    classToAdd: 'animated fadeInUp',
+                    offset: 200
                 });
+                $('*[data-animate]').addClass('hide').each(function(){
+                    $(this).viewportChecker({
+                        classToAdd: 'show animated ' + $(this).data('animate'),
+                        classToRemove: 'hide',
+                        offset: 200
+                    })
+                });
+
                 $('.portfolio').viewportChecker({
-                    classToAdd: 'animated fadeInUp'
+                    classToAdd: 'animated fadeInUp',
+                    offset: 200
                 });
                 $('.features').viewportChecker({
-                    classToAdd: 'animated fadeInUp'
+                    classToAdd: 'animated fadeInUp',
+                    offset: 200
                 });
                 $('.our-team').viewportChecker({
-                    classToAdd: 'animated fadeInUp'
+                    classToAdd: 'animated fadeInUp',
+                    offset: 200
                 });
             });
 
