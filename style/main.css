@@ -993,8 +993,10 @@ header .nav-bar .nav-logo {
   text-align: center;
 }
 .video-text h2 {
+  font-size: 48px;
   color: #FFF;
-  margin-bottom: 20px;
+  margin-bottom: 26px;
+  font-weight: bold;
 }
 .video-text a {
   position: relative;
