@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  *zoom: 1;
+  zoom: 1;
 }
 body:before,
 body:after {
@@ -250,7 +250,6 @@ h3 {
 .slicknav_btn {
   position: relative;
   display: block;
-  vertical-align: middle;
   float: right;
   padding: 0.438em 0.625em 0.438em 0.625em;
   line-height: 1.125em;
@@ -313,7 +312,7 @@ h3 {
 }
 /* IE6/7 support */
 .slicknav_menu {
-  *zoom: 1;
+  zoom: 1;
 }
 /* 
     User Default Style
@@ -1019,7 +1018,7 @@ header .nav-bar .nav-logo {
 }
 .features {
   padding: 80px 0 30px;
-  *zoom: 1;
+  zoom: 1;
 }
 .features h2 {
   font-size: 48px;
