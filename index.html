@@ -164,6 +164,15 @@
 		        </div>                
             </section>
 
+            <!-- Call To Action -->
+
+            <section class="video-text">
+                <div class="container">
+                    <h2>Skontaktuj się z nami</h2>
+                    <a href="" class="button">KLIKNIJ TUTAJ</a>
+                </div>
+            </section>
+
             <!-- Portfolio -->
 
             <section class="portfolio" id="portfolio">
@@ -261,16 +270,7 @@
                         </div>
                     <div class="player">
                 </div>
-            </section>
-
-            <!-- Call To Action -->
-
-            <section class="video-text">
-                <div class="container">
-                    <h2>Skontaktuj się z nami</h2>
-                    <a href="" class="button">KLIKNIJ TUTAJ</a>
-                </div>
-            </section>
+            </section>            
 
             <!-- Features -->
 
@@ -560,6 +560,12 @@
                 $('.timer').countTo();
                 /* Viewport Checker */
                 $('.services').viewportChecker({
+                    classToAdd: 'animated fadeInUp'
+                });
+                $('.portfolio').viewportChecker({
+                    classToAdd: 'animated fadeInUp'
+                });
+                $('.features').viewportChecker({
                     classToAdd: 'animated fadeInUp'
                 });
                 $('.our-team').viewportChecker({
