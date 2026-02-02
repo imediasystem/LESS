@@ -26,7 +26,7 @@
         <!-- bxSlider CSS file -->
 	    <link rel="stylesheet" href="style/jquery.bxslider.css" />
         <!-- Style LESS -->
-	    <!-- <link rel="stylesheet" href="style/main.less" type="text/less" /> -->
+	    <link rel="stylesheet" href="style/main.less" type="text/less" />
         <!-- Owl Carousel -->
         <link rel="stylesheet" href="owl-carousel/owl.carousel.css" />
         <link rel="stylesheet" href="owl-carousel/owl.theme.css" />
@@ -561,8 +561,9 @@
                 /* countTo */
                 $('.timer').countTo();
                 /* Viewport Checker */
-                $('.services').viewportChecker({
+                $('.services').addClass('hide').viewportChecker({
                     classToAdd: 'animated fadeInUp',
+                    classToRemove: 'hide',
                     offset: 200
                 });
                 $('*[data-animate]').addClass('hide').each(function(){
@@ -572,16 +573,19 @@
                         offset: 200
                     })
                 });
-                $('.portfolio').viewportChecker({
+                $('.portfolio').addClass('hide').viewportChecker({
                     classToAdd: 'animated fadeInUp',
+                    classToRemove: 'hide',
                     offset: 200
                 });
-                $('.features').viewportChecker({
+                $('.features').addClass('hide').viewportChecker({
                     classToAdd: 'animated fadeInUp',
+                    classToRemove: 'hide',
                     offset: 200
                 });
-                $('.our-team').viewportChecker({
+                $('.our-team').addClass('hide').viewportChecker({
                     classToAdd: 'animated fadeInUp',
+                    classToRemove: 'hide',
                     offset: 200
                 });
                 /* YTPlayer */
