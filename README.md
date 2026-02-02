@@ -1,3 +1,6 @@
+<img width="1891" height="909" alt="Zrzut ekranu 2026-02-02 153518" src="https://github.com/user-attachments/assets/e33041e0-84be-4d06-af29-99c48999dbf2" />
+
+
 ## 🔥 Project Name - LESS
 See the live version of [LESS](https://imediasystem.github.io/LESS/) ↗️
 
