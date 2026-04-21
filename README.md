@@ -2,7 +2,8 @@
 
 
 ## 🔥 Project Name - LESS
-See the live version of [LESS](https://imediasystem.github.io/LESS/) ↗️
+
+[![View Demo](https://img.shields.io/badge/LIVE_DEMO-Visit_Website-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://imediasystem.github.io/LESS/)
 
 By leveraging the LESS preprocessor, I deliver websites with optimized, clean, and perfectly organized CSS code. For you, this means a lightning-fast website that ranks effectively on Google and remains fully responsive — all without any unnecessary technological bloat.
 
