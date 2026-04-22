@@ -7,6 +7,12 @@
 
 By leveraging the LESS preprocessor, I deliver websites with optimized, clean, and perfectly organized CSS code. For you, this means a lightning-fast website that ranks effectively on Google and remains fully responsive — all without any unnecessary technological bloat.
 
+## 📚 Key Features
+* **Fully Responsive Design** – Looks great on mobile, tablet, and desktop.
+* **Video-Centric Layout** – Optimized for high-quality video backgrounds and portfolios.
+* **Performance Optimized** – Fast loading times for a seamless user experience.
+&nbsp;
+
 ## 📚 Technologies / Frameworks / Platforms / Libraries
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
